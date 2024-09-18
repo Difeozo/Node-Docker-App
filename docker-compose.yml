@@ -1,0 +1,15 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile # Make sure this path points to the correct Dockerfile
+    ports:
+      - "3000:3000"
+    depends_on:
+      - mongo
+  mongo:
+    image: mongo:4.4
+    volumes:
+      - mongo-data:/data/db
+volumes:
+  mongo-data:
