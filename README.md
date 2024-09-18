@@ -1,8 +1,4 @@
-Here's a professional README template for your Node-Docker-App project, including sections for an overview, setup, usage, and next steps with Postman and Kubernetes.
-
-markdown
-Copy code
- Node-Docker-App
+Node-Docker-App
 
  Overview
 
