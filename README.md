@@ -4,6 +4,35 @@ Node-Docker-App
 
 The Node-Docker-App is a modern web application built using Node.js and Docker, designed to demonstrate best practices in containerization, microservices architecture, and CI/CD workflows. This project aims to streamline the development and deployment processes, ensuring scalability, flexibility, and ease of management in cloud environments.
 
+                          +-------------------------------------+
+                          |       User (Web Browser/Postman)    |
+                          +-------------------------------------+
+                                        |
+                                        |
+                          +-----------------------------+
+                          |        Node.js Backend       |
+                          |     (API Endpoints Layer)    |
+                          +-----------------------------+
+                                        |
+                                        |
+                          +-----------------------------+
+                          |   Dockerized Environment     |
+                          |  (Containerized Node.js App) |
+                          +-----------------------------+
+                                        |
+                                        |
+                          +-----------------------------+
+                          |      Docker Engine           |
+                          |  (Container Orchestration)   |
+                          +-----------------------------+
+                                        |
+                                        |
+                          +-----------------------------+
+                          |      Host Machine            |
+                          |   (Local/Cloud Environment)  |
+                          +-----------------------------+
+
+
  Features
 
 - Node.js Backend : A robust backend service developed with Node.js, providing APIs for frontend interaction.
@@ -42,10 +71,10 @@ Access the Application: Open your browser and navigate to http://localhost:3000.
 Usage
 This application exposes a set of APIs that can be tested using Postman or any other API client. Below are some key endpoints:
 
-GET /api/endpoint: Description of the endpoint.
-POST /api/endpoint: Description of the endpoint.
-PUT /api/endpoint: Description of the endpoint.
-DELETE /api/endpoint: Description of the endpoint.
+GET /api/endpoint
+POST /api/endpoint
+PUT /api/endpoint
+DELETE /api/endpoint
 Postman Collection
 To facilitate API testing, a Postman collection can be created and shared, which includes all available endpoints, sample requests, and responses. This will enhance the development workflow and provide a clear understanding of the API functionalities.
 
