@@ -32,8 +32,6 @@ Node-Docker-App
              +-----------------------------+
 
 
-Here’s an updated GitHub description for your  Node-Docker-App  project:
-
 ---
 
   Node-Docker-App
@@ -58,4 +56,3 @@ This project serves as a foundation for future enhancements, such as Kubernetes 
 
 ---
 
-This description gives a detailed overview of the project without any specific commands. Let me know if you need further adjustments!
